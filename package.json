@@ -1,6 +1,6 @@
 {
 	"name": "rem-self-adapt",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "一款使用rem适配不同屏幕宽度的轻量级js插件",
 	"main": "dist/rem-self-adapt.js",
 	"scripts": {
@@ -18,6 +18,10 @@
 		"babel-loader": "^7.1.5",
 		"babel-preset-env": "^1.7.0",
 		"cross-env": "^7.0.3"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/miaohailongco/rem-self-adapt"
 	},
 	"babel": {
 		"presets": [

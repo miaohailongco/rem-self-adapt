@@ -16,4 +16,4 @@ window.addEventListener('resize', () => {
 });
 ```
 
-### 具体使用方法请到我的github网站查看：[rem-self-adapt]()
+### 具体使用方法请到我的github网站查看：[rem-self-adapt](https://github.com/miaohailongco/rem-self-adapt)
