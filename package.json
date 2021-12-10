@@ -1,0 +1,28 @@
+{
+	"name": "rem-self-adapt",
+	"version": "1.0.4",
+	"description": "一款使用rem适配不同屏幕宽度的轻量级js插件",
+	"main": "dist/rem-self-adapt.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "cross-env NODE_ENV=production webpack",
+		"serve": "cross-env NODE_ENV=development webpack"
+	},
+	"keywords": [
+		"rem适配"
+	],
+	"author": "wudidadalong",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-loader": "^7.1.5",
+		"babel-preset-env": "^1.7.0",
+		"cross-env": "^7.0.3"
+	},
+	"babel": {
+		"presets": [
+			"env"
+		],
+		"plugins": []
+	}
+}
