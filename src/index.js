@@ -53,7 +53,7 @@ class RemSelfAdapt {
 		window.rem = rem;
 	}
 
-	removeRem() {
+	static removeRem() {
 		var html = document.documentElement;
 		var metaEle = document.querySelector('meta[name="viewport"]');
 		// 重置meta元素中的视口设置

@@ -9,12 +9,20 @@
 </head>
 <body>
     <div>一款使用rem适配不同屏幕宽度的轻量级js插件</div>
+	<button type="button" onclick="removeRem()">移除适配</button>
+	<button type="button" onclick="addRem()">添加适配</button>
 	<script>
 	    let remSelfAdapt = new RemSelfAdapt()
 		remSelfAdapt.setRem()
 		window.addEventListener('resize', function () {
 			remSelfAdapt.setRem()
 		})
+		function removeRem() {
+			RemSelfAdapt.removeRem()
+		}
+		function addRem() {
+			remSelfAdapt.setRem()
+		}
 	</script>
 </body>
 </html>
