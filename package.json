@@ -4,7 +4,6 @@
 	"description": "一款使用rem适配不同屏幕宽度的轻量级js插件",
 	"main": "dist/rem-self-adapt.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "cross-env NODE_ENV=production webpack",
 		"serve": "cross-env NODE_ENV=development webpack"
 	},
@@ -20,8 +19,8 @@
 		"cross-env": "^7.0.3"
 	},
 	"repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/miaohailongco/rem-self-adapt"
+		"type": "git",
+		"url": "git+https://github.com/miaohailongco/rem-self-adapt"
 	},
 	"babel": {
 		"presets": [
